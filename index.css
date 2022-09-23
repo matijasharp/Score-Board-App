@@ -1,0 +1,46 @@
+@font-face{
+    font-family: "newFont";
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+body {
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.container {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 7vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.display {
+    font-family: newFont;
+    width: 30vw;
+    height: 30vh;
+    background-color: black;
+    opacity: 85%;
+    border-radius: 5px;
+    color: red;
+    font-size: 6vh;
+}
+
+.buttons {
+    font-family: newFont;
+    display: flex;
+    justify-content: space-around;
+    width: 33vw; 
+}
+
+.button {
+    opacity: 80%;
+    border-radius: 5px;
+    width: 8vw;
+    height: 12vh;
+    font-size: 1.2em;
+    border: solid 1px;
+}
